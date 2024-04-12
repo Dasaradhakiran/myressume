@@ -1,0 +1,159 @@
+.main-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.block-1 {
+    width: 100%;
+}
+.block-2 {
+    width: 100%;
+    padding-right: 30px;
+}
+
+.heading-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-text {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #0515f7;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.developer-text {
+    font-family: "Roboto";
+    font-size: 14px;
+    padding: 6px;
+    margin-top: 0px;
+}
+.heading-top-text {
+    font-family: "Roboto";
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+
+.title-block {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.title-icon {
+    font-size: 35px;
+    color: #0515f7;
+    margin-right: 10px;
+}
+.title-text {
+    font-family: "Roboto";
+    font-size: 19px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.title-ul-elem {
+    margin-top: 0px;
+} 
+
+.education-text {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+.education-sub-text {
+    font-family: "Roboto";
+    font-size: 13px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+.education-span-text {
+    color: #0515f7;
+}
+
+.project-ul-elem {
+    margin: 0px;
+}
+.projects-span-elem {
+    font-weight: bold;
+}
+.project-sub-text {
+    margin-bottom: 0px;
+}
+.project-link {
+    color: #0515f7;
+}
+
+.contact-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.contact-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0515f7;
+}
+.contact-text {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #0515f7;
+}
+
+.skill-text {
+    font-size: 13px;
+}
+.skill-span-elem {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.software-li-elem {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.software-img {
+    width: 60px;
+    margin-right: 3px;
+}
+.software-ul-elem {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.software-text {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 5px;
+}
+.software-vs-img {
+    width: 50px;
+    margin-right: 3px;
+}
+
+.language-li-elem {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.hobbies-li-elem {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
